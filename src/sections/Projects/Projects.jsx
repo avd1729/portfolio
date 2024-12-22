@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import revise_automate from '../../assets/revise_automate.jpg';
+import starry_ai_night from '../../assets/starry_ai_night.jpg';
+import culinary_bot from '../../assets/culinary_bot.jpg';
+import titanic from '../../assets/titanic.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={revise_automate}
+          link="https://github.com/avd1729/Revision-Automate"
+          h3="Revise Automate"
+          p="Automation App"
+        />
+         <ProjectCard
+          src={culinary_bot}
+          link="https://github.com/avd1729/CulinaryBot"
+          h3="Culinary Bot"
+          p="LLM Finetuning App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
-        />
+          src={starry_ai_night}
+          link="https://github.com/avd1729/Starry-AI-Night"
+          h3="Starry AI night"
+          p="Generative AI App"
+        /> 
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
-        />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={titanic}
+          link="https://github.com/avd1729/Titanic-fate-prediction-Website"
+          h3="Titanic fate prediction"
+          p="Machine Learning App"
         />
       </div>
     </section>
