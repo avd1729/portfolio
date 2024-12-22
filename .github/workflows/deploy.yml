@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - portfolio_aravind
+      - portfolio_aravind  # Change to your working branch name
 
 jobs:
   build-and-deploy:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the Node.js version
+          node-version: '16'
 
       # Step 3: Install dependencies
       - name: Install Dependencies
@@ -28,7 +28,13 @@ jobs:
       - name: Build React App
         run: npm run build
 
-      # Step 5: Deploy to GitHub Pages
+      # Step 5: Configure Git
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: npm run deploy
         env:
