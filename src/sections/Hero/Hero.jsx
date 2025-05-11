@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/AravindMS.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -52,8 +52,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing enterprise applications for commercial
-          businesses.
+          Passionate software engineer crafting efficient, scalable solutions with a focus on innovation and user experience.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
