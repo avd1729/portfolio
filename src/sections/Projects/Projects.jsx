@@ -14,6 +14,11 @@ import vielnet from '../../assets/vielnet.jpg'
 import talk from '../../assets/talk.jpg'
 import loadbalancer from '../../assets/loadbalancer.jpg'
 import cloud from '../../assets/cloud.jpg'
+import melodymap from '../../assets/melodymap.jpg'
+import he from '../../assets/he.jpg'
+import journee from '../../assets/journee.jpg'
+import shakespeare from '../../assets/shakespeare.jpg'
+import codesmith from '../../assets/codesmith.jpg'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -68,6 +73,12 @@ function Projects() {
           link="https://github.com/avd1729/hue-hush"
           h3="Huehush"
           p="PyPi package"
+        />
+        <ProjectCard
+          src={journee}
+          link="https://github.com/avd1729/Talk-Space"
+          h3="Journee"
+          p="Uber App (GPS)"
         /> 
         <ProjectCard
           src={vielnet}
@@ -88,16 +99,40 @@ function Projects() {
           p="Quantum Chat App"
         />
         <ProjectCard
-          src={talk}
-          link="https://github.com/avd1729/Talk-Space"
-          h3="TalkSpace"
-          p="Social Media App"
+          src={melodymap}
+          link="https://github.com/avd1729/Q-Chat"
+          h3="Melody Map"
+          p="Recommendation system"
+        />
+        <ProjectCard
+          src={codesmith}
+          link="https://github.com/avd1729/Cloudburst-Prediction-System"
+          h3="CodeSmith"
+          p="AWS Ecosystem App"
+        />
+        <ProjectCard
+          src={shakespeare}
+          link="https://github.com/avd1729/RescueTails"
+          h3="Shakespeare"
+          p="Text Generation (RNN)"
         />
         <ProjectCard
           src={titanic}
           link="https://github.com/avd1729/Titanic-fate-prediction-Website"
           h3="Titanic Fate"
           p="Machine Learning"
+        />
+         <ProjectCard
+          src={he}
+          link="https://github.com/avd1729/Titanic-fate-prediction-Website"
+          h3="GNN Recommends"
+          p="Homomorphic Encryption"
+        />
+        <ProjectCard
+          src={talk}
+          link="https://github.com/avd1729/Talk-Space"
+          h3="TalkSpace"
+          p="Social Media App"
         />
         <ProjectCard
           src={rescuetails}
@@ -111,6 +146,7 @@ function Projects() {
           h3="Cloud Burst"
           p="Deep Learning"
         />
+       
       </div>
     </section>
   );
