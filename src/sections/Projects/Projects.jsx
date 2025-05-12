@@ -76,7 +76,7 @@ function Projects() {
         />
         <ProjectCard
           src={journee}
-          link="https://github.com/avd1729/Talk-Space"
+          link="https://github.com/avd1729/Journee"
           h3="Journee"
           p="Uber App (GPS)"
         /> 
@@ -100,19 +100,19 @@ function Projects() {
         />
         <ProjectCard
           src={melodymap}
-          link="https://github.com/avd1729/Q-Chat"
+          link="https://github.com/avd1729/MelodyMap"
           h3="Melody Map"
           p="Recommendation system"
         />
         <ProjectCard
           src={codesmith}
-          link="https://github.com/avd1729/Cloudburst-Prediction-System"
+          link="https://github.com/avd1729/CodeSmith"
           h3="CodeSmith"
           p="AWS Ecosystem App"
         />
         <ProjectCard
           src={shakespeare}
-          link="https://github.com/avd1729/RescueTails"
+          link="https://github.com/avd1729/Generating-Shakespearean-Text"
           h3="Shakespeare"
           p="Text Generation (RNN)"
         />
@@ -124,7 +124,7 @@ function Projects() {
         />
          <ProjectCard
           src={he}
-          link="https://github.com/avd1729/Titanic-fate-prediction-Website"
+          link="https://github.com/avd1729/Homographic-Encryption-Mvp"
           h3="GNN Recommends"
           p="Homomorphic Encryption"
         />
